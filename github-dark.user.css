@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name           Forked GitHub Dark v2.6.3
+@name           GitHub Dark v2.6.3
 @namespace      github.com/cquanu/github-dark
 @version        2.6.22
 @description    GitHub Dark 2.0
@@ -11,11 +11,11 @@
     /* Colors */
 
     :root {
-        --body-color: #1a2632;
+        --body-color: #171717;
         --accent-color: #243447;
         --depth-color: #151f29;
         --border-color: #304251;
-        --link-color: #eee;
+        --link-color: #accddc;
         --icon-color: #8899a6;
         --primary-text-color: #ffffff;
         --secondary-text-color: #607d8b;
@@ -40,6 +40,10 @@
 
     h4 > a {
         color: var(--primary-text-color);
+    }
+
+    a {
+        color: var(--link-color);
     }
 
     /* Class Global */
